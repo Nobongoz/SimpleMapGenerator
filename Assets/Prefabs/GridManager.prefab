@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6842906559857995455
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6842906559857995453}
+  - component: {fileID: 6842906559857995454}
+  m_Layer: 0
+  m_Name: GridManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6842906559857995453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842906559857995455}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.5, y: -20.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6842906559857995454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6842906559857995455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fdf0507ae3025e49be7b85974d9638a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSprites:
+  - {fileID: 21300000, guid: 0cbf313df9ee92943b93bfdc6c6873ce, type: 3}
+  - {fileID: 21300000, guid: 650edb93df246dc44b8d1d3128572928, type: 3}
+  - {fileID: 21300000, guid: 696f2439d416fa74faa32f5531a34bc9, type: 3}
+  - {fileID: 21300000, guid: f1ee081c6cc72874985d65f3c7497a99, type: 3}
+  - {fileID: 21300000, guid: c468f3541b4cbf842b5b10137533ad0c, type: 3}
+  tileSpriteValues:
+  - 0.3
+  - 0.45
+  - 0.7
+  - 0.8
+  - 1
+  tileSpeeds:
+  - 6
+  - 6
+  - 6
+  - 6
+  - 3
+  gridLength: {x: 74, y: 42}
+  tileSpacing: 0
+  noiseScale: {x: 3, y: 3}
+  noiseOffset: {x: 0, y: 0}
+  allTiles: []
+  heightAmp: 2
+  useIsland: 0
+  islandScale: {x: 15, y: 15}
+  islandEdge: 8
+  useMajNoise: 0
+  majNoiseOpac: 0.4
+  majNoiseScale: {x: 10, y: 10}
+  majNoiseOffset: {x: 0, y: 0}
+  tilePrefab: {fileID: 645233890255621192, guid: 22e2116b7955f8746a5adaa24d6a1b02, type: 3}
+  testColor1: {r: 0, g: 0, b: 0, a: 0}
